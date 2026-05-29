@@ -57,3 +57,6 @@ from being merged into `main`.
 
 This behavior was validated through a Pull Request protected by the
 `Quality Gate / test-and-coverage` status check.
+
+Test update: this line verifies that documentation-only changes still trigger
+the configured GitHub Actions quality workflow when integrated into `main`.
