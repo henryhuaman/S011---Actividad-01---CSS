@@ -20,4 +20,14 @@ public class DefaultPokemon extends Pokemon {
                 speed
         );
     }
+
+    public void unntestedMethodToLowerCoverage() {
+        System.out.println("This method is not covered by tests.");
+        System.out.println("It should help lower the coverage.");
+        if (Math.random() > 0.5) {
+            System.out.println("Random branch 1");
+        } else {
+            System.out.println("Random branch 2");
+        }
+    }
 }
