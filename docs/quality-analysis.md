@@ -54,3 +54,6 @@ assert domain outcomes instead of only executing methods.
 If a Pull Request reports coverage below `85%`, the failed workflow is expected
 evidence that the quality gate is active and preventing low-coverage changes
 from being merged into `main`.
+
+This behavior was validated through a Pull Request protected by the
+`Quality Gate / test-and-coverage` status check.
