@@ -43,7 +43,7 @@ class TrainerTest {
         assertThrows(UnsupportedOperationException.class, () -> trainer.getTeam().clear());
     }
 
-    /*@Test
+    @Test
     void clearTeamRemovesAllPokemon() {
         Trainer trainer = new Trainer("Ash");
         trainer.addPokemon(PokemonFactory.createPokemon(25));
@@ -52,5 +52,5 @@ class TrainerTest {
 
         assertEquals(0, trainer.getTeamSize());
         assertFalse(trainer.hasAlivePokemons());
-    }*/
+    }
 }
